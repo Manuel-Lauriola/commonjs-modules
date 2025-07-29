@@ -6,4 +6,6 @@ function peopleAreObjects (firstName, secondName) {
   }
 }
 
-console.log(peopleAreObjects(`manuel`, `lauriola`))
+// console.log(peopleAreObjects(`manuel`, `lauriola`))
+//esporto la funzione
+module.exports = peopleAreObjects

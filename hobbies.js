@@ -1,6 +1,8 @@
 //dichiaro la funzione
-function hobbies (hobbyOne, hobbyTwo, hobbyThree) {
+function peopleHobbies (hobbyOne, hobbyTwo, hobbyThree) {
   return [hobbyOne, hobbyTwo, hobbyThree]
 }
 
-console.log(hobbies(`videogames`, `films`, `anime`))
+// console.log(peopleHobbies(`videogames`, `films`, `anime`))
+//esporto la funzione
+module.exports = peopleHobbies
